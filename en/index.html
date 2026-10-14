@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MyKitten Help · MyKitten</title>
+<link rel="icon" href="../icon.png">
+<style>
+:root { --bg: #ffffff; --text: #17171a; --muted: #5d5d66; --accent: #0f7f79; --line: #ececf0; }
+@media (prefers-color-scheme: dark) { :root { --bg: #111113; --text: #f2f2f5; --muted: #a2a2ab; --accent: #5fd6cc; --line: #26262b; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif; }
+header { background: linear-gradient(180deg, #38bcb2, #127673); color: #ffffff; }
+.bar { max-width: 760px; margin: 0 auto; padding: 22px 20px; display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.bar img { width: 52px; height: 52px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,.2); }
+.bar strong { font-size: 24px; letter-spacing: -0.01em; margin-right: auto; }
+nav a { color: #ffffff; text-decoration: none; font-weight: 600; margin-left: 18px; }
+nav a[aria-current] { text-decoration: underline; text-underline-offset: 4px; }
+main { max-width: 760px; margin: 0 auto; padding: 8px 20px 40px; }
+h1 { font-size: 34px; line-height: 1.15; letter-spacing: -0.02em; margin: 36px 0 12px; }
+h2 { font-size: 21px; margin: 32px 0 6px; }
+p { margin: 0 0 12px; overflow-wrap: anywhere; }
+a { color: var(--accent); }
+footer { max-width: 760px; margin: 0 auto; padding: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+footer a { color: var(--muted); }
+footer a[aria-current] { color: var(--text); font-weight: 600; text-decoration: none; }
+</style>
+</head>
+<body>
+<header><div class="bar"><img src="../icon.png" alt=""><strong>MyKitten</strong><nav><a href="index.html" aria-current=page>Help</a><a href="privacy.html">Privacy</a></nav></div></header>
+<main>
+<h1>MyKitten Help</h1>
+<h2>How do reminders work?</h2>
+<p>Every litter box, food stock and health care item has its own reminder, at the time you choose (Settings › Reminders). Notifications are scheduled on your iPhone: if they don&#x27;t arrive, make sure they are allowed in Settings › Notifications › MyKitten. From a notification, “Done” or “I bought more” updates the app without opening it.</p>
+<h2>How is the wet and dry food stock calculated?</h2>
+<p>Enter each cat&#x27;s daily portion and how much you have left: MyKitten counts down every day, including days without wet food. After shopping, tap “I bought more”. You can recount a stock at any time from its page.</p>
+<h2>Several cats, several litter boxes</h2>
+<p>Add your cats in the Cats tab and your litter boxes in the Litter boxes tab. Each cat has its own portion; stock can be shared or separate (Settings › Meals), and each litter box can be linked to specific cats.</p>
+<h2>Widgets and Apple Watch</h2>
+<p>Add MyKitten widgets to your Home Screen or Lock Screen: the “My cat” widget shows your cat&#x27;s photo and what&#x27;s coming up. On Apple Watch, the app and its complications show the days left and let you log a litter change or a purchase.</p>
+<h2>Share your household</h2>
+<p>Settings › iCloud &amp; household sharing: turn on sync, then invite someone (another Apple Account). You&#x27;ll both see and update the same cats, litter boxes and stocks; when one of you changes the litter, the other&#x27;s reminders adapt.</p>
+<h2>Back up or export my data</h2>
+<p>With iCloud sync on, your data is backed up to your iCloud. Settings › Export my data also creates a complete history (CSV) and each cat&#x27;s health record (PDF).</p>
+<h2>Contact</h2>
+<p>A question, a bug, an idea? Write to <a href="mailto:contact@vaxel.fr">contact@vaxel.fr</a></p>
+</main>
+<footer><a href="../fr/index.html" lang="fr">Français</a> · <a href="../en/index.html" lang="en" aria-current=page>English</a><br>© 2026 Gabin Durand</footer>
+</body>
+</html>
